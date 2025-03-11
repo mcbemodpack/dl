@@ -393,11 +393,31 @@
     All
    </div>
    <div class="clickable" onclick="showSection('section1')">
-    <i class="fas fa-dragon">
+    <i class="fas fa-heart">
     </i>
-    Medievals
+    Hardcore
    </div>
    <div class="clickable" onclick="showSection('section2')">
+    <i class="fas fa-star">
+    </i>
+    Adventure
+   </div>
+   <div class="clickable" onclick="showSection('section3')">
+    <i class="fas fa-gun">
+    </i>
+    Apocalypse
+   </div>
+   <div class="clickable" onclick="showSection('section4')">
+    <i class="fas fa-dragon">
+    </i>
+    Fantasy
+   </div>
+    <div class="clickable" onclick="showSection('section5')">
+    <i class="fas fa-robot">
+    </i>
+    Sci-Fi
+   </div>
+    <div class="clickable" onclick="showSection('section6')">
     <i class="fas fa-folder">
     </i>
     AddonPacks
@@ -412,10 +432,10 @@
   <!-- Hidden sections -->
   <div class="hidden-section" id="section1">
    <header style="text-align: center; margin: 2rem 0; color: #00c3ff; text-shadow: 0 0 10px rgba(0,195,255,0.5); font-size: 2rem; animation: slideDown 0.5s ease-out;">
-    <i class="fas fa-dragon">
+    <i class="fas fa-heart">
     </i>
     <br/>
-    Medievals
+    Hardcore
    </header>
    <input class="search-bar" onkeyup="sectionSearch(this.value, 'section1')" placeholder="🔍 Search..." type="text"/>
    <div class="section">
@@ -437,10 +457,10 @@
   </div>
   <div class="hidden-section" id="section2">
    <header style="text-align: center; margin: 2rem 0; color: #00c3ff; text-shadow: 0 0 10px rgba(0,195,255,0.5); font-size: 2rem; animation: slideDown 0.5s ease-out;">
-    <i class="fas fa-folder">
+    <i class="fas fa-star">
     </i>
     <br/>
-    AddonPacks
+    Adventure
    </header>
    <input class="search-bar" onkeyup="sectionSearch(this.value, 'section2')" placeholder="🔍 Search..." type="text"/>
    <button class="back-button" onclick="goBack()" style="animation: slideUp 0.5s ease-out;">
@@ -451,10 +471,10 @@
   </div>
   <div class="hidden-section" id="section3">
    <header style="text-align: center; margin: 2rem 0; color: #00c3ff; text-shadow: 0 0 10px rgba(0,195,255,0.5); font-size: 2rem; animation: slideDown 0.5s ease-out;">
-    <i class="fab fa-windows">
+    <i class="fas fa-gun">
     </i>
     <br/>
-    Windows
+    Apocalypse
    </header>
    <input class="search-bar" onkeyup="sectionSearch(this.value, 'section3')" placeholder="🔍 Search..." type="text"/>
    <button class="back-button" onclick="goBack()" style="animation: slideUp 0.5s ease-out;">
@@ -465,10 +485,10 @@
   </div>
   <div class="hidden-section" id="section4">
    <header style="text-align: center; margin: 2rem 0; color: #00c3ff; text-shadow: 0 0 10px rgba(0,195,255,0.5); font-size: 2rem; animation: slideDown 0.5s ease-out;">
-    <i class="fab fa-apple">
+    <i class="fas fa-dragon">
     </i>
     <br/>
-    iOS
+    Fantasy
    </header>
    <input class="search-bar" onkeyup="sectionSearch(this.value, 'section4')" placeholder="🔍 Search..." type="text"/>
    <!-- iOS section currently has no items -->
@@ -481,10 +501,10 @@
   <!-- Sections 5 to 15 as empty placeholders -->
   <div class="hidden-section" id="section5">
    <header style="text-align: center; margin: 2rem 0; color: #00c3ff; font-size: 2rem; animation: slideDown 0.5s ease-out;">
-    <i class="fas fa-folder">
+    <i class="fas fa-robot">
     </i>
     <br/>
-    Section 5
+    Sci-Fi
    </header>
    <input class="search-bar" onkeyup="sectionSearch(this.value, 'section5')" placeholder="🔍 Search..." type="text"/>
    <button class="back-button" onclick="goBack()" style="animation: slideUp 0.5s ease-out;">
@@ -498,7 +518,7 @@
     <i class="fas fa-folder">
     </i>
     <br/>
-    Section 6
+    AddonPacks
    </header>
    <input class="search-bar" onkeyup="sectionSearch(this.value, 'section6')" placeholder="🔍 Search..." type="text"/>
    <button class="back-button" onclick="goBack()" style="animation: slideUp 0.5s ease-out;">
